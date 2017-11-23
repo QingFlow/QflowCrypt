@@ -1,0 +1,17 @@
+group 'com.qflow'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // base64 com.qflow.encrypt
+    compile 'org.apache.directory.studio:org.apache.commons.codec:1.8'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
